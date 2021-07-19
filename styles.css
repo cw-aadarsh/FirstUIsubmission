@@ -1,0 +1,104 @@
+            body{
+                font-family:Arial, Helvetica, sans-serif;
+            }
+            .card
+            {
+                height: 500px;
+                width: 400px;
+                background-color: #f9f9f9;
+                border: 2px solid darkgrey;
+            }
+            .image-container
+            {
+                position: relative;
+                background-image: url('https://imgd.aeplcdn.com/300X225/cw/ucp/stockApiImg/FHQ61WF_2147687_1_19616985.jpg');
+                width: 100%;
+                height: 48%;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .span-style
+            {
+                position: relative;
+                display: inline-block;
+                background-color: rgb(224, 148, 7);
+                padding: 2px 5px;
+                margin-top: 10px;
+                margin-left: 8px;
+                color: white;
+                font-size: 10px;
+                border-radius: 10%;
+            }
+            .icon
+            {
+                margin-right: 10px;
+                float: right;
+                margin-right: 15px;
+                margin-top: 10px;
+                color: white;
+                cursor: pointer;
+            }
+            .icon:hover
+            {
+                fill: green;
+            }
+            .title-car
+            {
+                margin-left: 30px;
+                margin-right: 60px;
+                width: 300px;
+                word-spacing: 6px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                color: rgb(85, 83, 83);
+                font-size: 17px;
+                font-weight: 700;
+            }
+            .triangle
+            {
+                display: inline-block;
+                width: 0;
+                height: 0;
+                margin-right: 0px;
+                padding: 0;
+                border-bottom: 45px solid rgb(221, 212, 212);
+                border-left: 45px solid transparent;
+            }
+            .square {
+                display: inline-block;
+                width: 60px;
+                height: 45px;
+                margin-left: 0px;
+                padding: 0;
+                background: rgb(221, 212, 212);
+            }
+            .price
+            {
+                margin-left: 50px;
+                font-weight: 558;
+                word-spacing: 5px;
+                color: rgb(85, 83, 83);
+                font-family:Arial, Helvetica, sans-serif;
+                font-size: 18px;
+            }
+            .price:hover{
+                cursor: pointer;
+            }
+            .vehicledata
+            {
+                margin-left: 25px;
+                font-size: 16px;
+                font-weight: 400;
+                color: #757575;
+                background-color: #fff;
+                border: 1px solid #efefef;
+                margin-top: 15px;
+                margin-bottom: 5px;
+                display: inline-block;
+                border-collapse: collapse;
+
+            }
+            button:hover{
+                cursor: pointer;
+            }
